@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Project-specific analysis outputs
+nodes.json
+edges.json
+ast_tree.html
+code_graph.html
+graph_clustered.html
+
+# Data/Source files
+# (Add this if you keep a local copy of flaskbb for testing)
+/flaskbb/
