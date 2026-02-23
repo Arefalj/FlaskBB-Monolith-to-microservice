@@ -1,0 +1,4568 @@
+[
+  {
+    "id": 90,
+    "name": "send_reset_token",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/email.py",
+    "cluster": 0
+  },
+  {
+    "id": 91,
+    "name": "send_activation_token",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/email.py",
+    "cluster": 0
+  },
+  {
+    "id": 92,
+    "name": "send_async_email",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/email.py",
+    "cluster": 0
+  },
+  {
+    "id": 93,
+    "name": "send_email",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/email.py",
+    "cluster": 3
+  },
+  {
+    "id": 97,
+    "name": "parse_user_link",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 2
+  },
+  {
+    "id": 98,
+    "name": "plugin_userify",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 2
+  },
+  {
+    "id": 100,
+    "name": "flaskbb_load_post_markdown_class",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 5
+  },
+  {
+    "id": 101,
+    "name": "flaskbb_load_nonpost_markdown_class",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 5
+  },
+  {
+    "id": 102,
+    "name": "flaskbb_jinja_directives",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 2
+  },
+  {
+    "id": 103,
+    "name": "make_renderer",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 5
+  },
+  {
+    "id": 104,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 3
+  },
+  {
+    "id": 105,
+    "name": "block_code",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/markup.py",
+    "cluster": 5
+  },
+  {
+    "id": 109,
+    "name": "deprecated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/deprecation.py",
+    "cluster": 3
+  },
+  {
+    "id": 110,
+    "name": "deprecation_decorator",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/deprecation.py",
+    "cluster": 2
+  },
+  {
+    "id": 111,
+    "name": "wrapper",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/deprecation.py",
+    "cluster": 0
+  },
+  {
+    "id": 112,
+    "name": "create_app",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 4
+  },
+  {
+    "id": 113,
+    "name": "configure_app",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 114,
+    "name": "configure_celery_app",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 115,
+    "name": "configure_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 116,
+    "name": "configure_extensions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 117,
+    "name": "configure_template_filters",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 118,
+    "name": "configure_context_processors",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 119,
+    "name": "configure_before_handlers",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 120,
+    "name": "configure_errorhandlers",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 121,
+    "name": "configure_migrations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 122,
+    "name": "configure_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 123,
+    "name": "configure_logging",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 124,
+    "name": "configure_default_logging",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 125,
+    "name": "configure_mail_logs",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 126,
+    "name": "load_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 128,
+    "name": "load_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 129,
+    "name": "inject_flaskbb_config",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 130,
+    "name": "inject_now",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 131,
+    "name": "update_lastseen",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 132,
+    "name": "forbidden_page",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 133,
+    "name": "page_not_found",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 134,
+    "name": "server_error_page",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 135,
+    "name": "get_locale",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 136,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 5
+  },
+  {
+    "id": 137,
+    "name": "mark_current_user_online",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 138,
+    "name": "before_cursor_execute",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 6
+  },
+  {
+    "id": 139,
+    "name": "after_cursor_execute",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/app.py",
+    "cluster": 5
+  },
+  {
+    "id": 142,
+    "name": "populate_settings_dict",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/forms.py",
+    "cluster": 5
+  },
+  {
+    "id": 143,
+    "name": "populate_settings_form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/forms.py",
+    "cluster": 5
+  },
+  {
+    "id": 144,
+    "name": "generate_settings_form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/forms.py",
+    "cluster": 2
+  },
+  {
+    "id": 145,
+    "name": "populate_errors",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/forms.py",
+    "cluster": 3
+  },
+  {
+    "id": 147,
+    "name": "to_bytes",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 148,
+    "name": "to_unicode",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 149,
+    "name": "slugify",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 150,
+    "name": "redirect_url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 151,
+    "name": "redirect_or_next",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 152,
+    "name": "render_template",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 3
+  },
+  {
+    "id": 153,
+    "name": "do_topic_action",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 154,
+    "name": "get_categories_and_forums",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 155,
+    "name": "get_forums",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 156,
+    "name": "forum_is_unread",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 157,
+    "name": "topic_is_unread",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 158,
+    "name": "mark_online",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 159,
+    "name": "get_online_users",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 160,
+    "name": "crop_title",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 161,
+    "name": "is_online",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 0
+  },
+  {
+    "id": 162,
+    "name": "time_utcnow",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 163,
+    "name": "time_diff",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 164,
+    "name": "_get_user_locale",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 165,
+    "name": "_format_html_time_tag",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 166,
+    "name": "format_datetime",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 167,
+    "name": "format_date",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 168,
+    "name": "format_time",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 169,
+    "name": "format_timedelta",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 170,
+    "name": "time_since",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 0
+  },
+  {
+    "id": 171,
+    "name": "format_quote",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 172,
+    "name": "get_image_info",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 173,
+    "name": "check_image",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 3
+  },
+  {
+    "id": 174,
+    "name": "get_alembic_locations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 6
+  },
+  {
+    "id": 175,
+    "name": "get_available_themes",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 7
+  },
+  {
+    "id": 176,
+    "name": "get_available_languages",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 177,
+    "name": "app_config_from_env",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 6
+  },
+  {
+    "id": 178,
+    "name": "get_flaskbb_config",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 6
+  },
+  {
+    "id": 180,
+    "name": "real",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 181,
+    "name": "parse_pkg_metadata",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 2
+  },
+  {
+    "id": 182,
+    "name": "anonymous_required",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 183,
+    "name": "enforce_recaptcha",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 184,
+    "name": "registration_enabled",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 185,
+    "name": "requires_unactivated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 186,
+    "name": "register_view",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 3
+  },
+  {
+    "id": 188,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 189,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 190,
+    "name": "wrapper",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 191,
+    "name": "wrapper",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 192,
+    "name": "wrapper",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 193,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 1
+  },
+  {
+    "id": 194,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/helpers.py",
+    "cluster": 5
+  },
+  {
+    "id": 196,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/datastructures.py",
+    "cluster": 7
+  },
+  {
+    "id": 197,
+    "name": "__unicode__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/datastructures.py",
+    "cluster": 2
+  },
+  {
+    "id": 198,
+    "name": "__str__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/datastructures.py",
+    "cluster": 2
+  },
+  {
+    "id": 199,
+    "name": "make_comparable",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 205,
+    "name": "try_commit",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 3
+  },
+  {
+    "id": 206,
+    "name": "__eq__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 207,
+    "name": "__ne__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 208,
+    "name": "__hash__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 209,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 210,
+    "name": "create",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 4
+  },
+  {
+    "id": 211,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 212,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 3
+  },
+  {
+    "id": 213,
+    "name": "process_bind_param",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 214,
+    "name": "process_result_value",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 215,
+    "name": "__new__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 216,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 217,
+    "name": "with_hidden",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 5
+  },
+  {
+    "id": 218,
+    "name": "_get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 219,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 2
+  },
+  {
+    "id": 220,
+    "name": "hidden_by_id",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 221,
+    "name": "hidden_by",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 7
+  },
+  {
+    "id": 222,
+    "name": "hide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 5
+  },
+  {
+    "id": 223,
+    "name": "unhide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/database.py",
+    "cluster": 5
+  },
+  {
+    "id": 225,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/views.py",
+    "cluster": 7
+  },
+  {
+    "id": 226,
+    "name": "dispatch_request",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 228,
+    "name": "update_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 229,
+    "name": "add_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 230,
+    "name": "compile_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 4
+  },
+  {
+    "id": 231,
+    "name": "add_plugin_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 232,
+    "name": "update_plugin_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 233,
+    "name": "compile_plugin_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 234,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 7
+  },
+  {
+    "id": 235,
+    "name": "get_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 236,
+    "name": "delete_settings_from_fixture",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 7
+  },
+  {
+    "id": 237,
+    "name": "create_settings_from_fixture",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 238,
+    "name": "update_settings_from_fixture",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 239,
+    "name": "create_default_settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 240,
+    "name": "create_default_groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 241,
+    "name": "create_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 2
+  },
+  {
+    "id": 242,
+    "name": "update_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 2
+  },
+  {
+    "id": 243,
+    "name": "create_welcome_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 244,
+    "name": "create_test_data",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 245,
+    "name": "insert_bulk_data",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 246,
+    "name": "create_latest_db",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 247,
+    "name": "has_migrations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 248,
+    "name": "run_plugin_migrations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/populate.py",
+    "cluster": 4
+  },
+  {
+    "id": 249,
+    "name": "_urlparse",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/http.py",
+    "cluster": 5
+  },
+  {
+    "id": 250,
+    "name": "_urlsplit",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/http.py",
+    "cluster": 5
+  },
+  {
+    "id": 251,
+    "name": "_url_has_allowed_host_and_scheme",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/http.py",
+    "cluster": 5
+  },
+  {
+    "id": 252,
+    "name": "is_safe_url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/http.py",
+    "cluster": 5
+  },
+  {
+    "id": 256,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 0
+  },
+  {
+    "id": 257,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 7
+  },
+  {
+    "id": 258,
+    "name": "_validate_recaptcha",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 5
+  },
+  {
+    "id": 259,
+    "name": "recaptcha_html",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 5
+  },
+  {
+    "id": 260,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 0
+  },
+  {
+    "id": 261,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/fields.py",
+    "cluster": 5
+  },
+  {
+    "id": 263,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 264,
+    "name": "__getitem__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 265,
+    "name": "__setitem__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 266,
+    "name": "__delitem__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 267,
+    "name": "__iter__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 268,
+    "name": "__len__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/settings.py",
+    "cluster": 2
+  },
+  {
+    "id": 276,
+    "name": "IsAtleastModeratorInForum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 277,
+    "name": "permission_with_identity",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 278,
+    "name": "has_permission",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 279,
+    "name": "can_moderate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 280,
+    "name": "can_post_reply",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 281,
+    "name": "can_edit_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 282,
+    "name": "can_post_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 283,
+    "name": "can_delete_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 284,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 285,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 0
+  },
+  {
+    "id": 286,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 287,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 288,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 289,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 290,
+    "name": "_user_is_forum_moderator",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 291,
+    "name": "_get_forum_moderators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 292,
+    "name": "_get_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 293,
+    "name": "_get_forum_from_id",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 294,
+    "name": "_get_forum_from_request",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 295,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 296,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 297,
+    "name": "_determine_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 298,
+    "name": "_get_user_id_from_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 299,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 0
+  },
+  {
+    "id": 300,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 301,
+    "name": "_determine_locked",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 302,
+    "name": "_get_topic_from_request",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 303,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 304,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 1
+  },
+  {
+    "id": 305,
+    "name": "_is_forum_locked",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 306,
+    "name": "_determine_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 307,
+    "name": "_get_forum_from_request",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 308,
+    "name": "fulfill",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 309,
+    "name": "_",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 5
+  },
+  {
+    "id": 310,
+    "name": "_",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/requirements.py",
+    "cluster": 3
+  },
+  {
+    "id": 315,
+    "name": "update_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 316,
+    "name": "insert_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 317,
+    "name": "delete_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 318,
+    "name": "update_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 319,
+    "name": "insert_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 320,
+    "name": "delete_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 321,
+    "name": "update_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 322,
+    "name": "insert_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 323,
+    "name": "delete_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 324,
+    "name": "update_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 325,
+    "name": "insert_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 326,
+    "name": "delete_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/utils/search.py",
+    "cluster": 7
+  },
+  {
+    "id": 331,
+    "name": "as_change",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 332,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 333,
+    "name": "as_change",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 334,
+    "name": "as_change",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 335,
+    "name": "validate_birthday",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 336,
+    "name": "as_change",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/forms.py",
+    "cluster": 3
+  },
+  {
+    "id": 344,
+    "name": "flaskbb_load_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 5
+  },
+  {
+    "id": 345,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 346,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 347,
+    "name": "render",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 348,
+    "name": "redirect",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 349,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 350,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 351,
+    "name": "render",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 352,
+    "name": "redirect",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 353,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 354,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 355,
+    "name": "render",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 356,
+    "name": "redirect",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 357,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 358,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 359,
+    "name": "render",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 360,
+    "name": "redirect",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 361,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 362,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 363,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 367,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 368,
+    "name": "selectable_groups_choices",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 369,
+    "name": "get_guest_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 370,
+    "name": "get_member_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 4
+  },
+  {
+    "id": 371,
+    "name": "is_active",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 372,
+    "name": "last_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 373,
+    "name": "url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 374,
+    "name": "permissions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 375,
+    "name": "groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 376,
+    "name": "days_registered",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 377,
+    "name": "topic_count",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 378,
+    "name": "posts_per_day",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 379,
+    "name": "topics_per_day",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 380,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 381,
+    "name": "_get_password",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 382,
+    "name": "_set_password",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 383,
+    "name": "check_password",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 384,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 385,
+    "name": "recalculate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 4
+  },
+  {
+    "id": 386,
+    "name": "all_topics",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 387,
+    "name": "all_posts",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 388,
+    "name": "track_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 389,
+    "name": "untrack_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 390,
+    "name": "is_tracking_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 391,
+    "name": "add_to_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 392,
+    "name": "remove_from_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 393,
+    "name": "in_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 394,
+    "name": "get_groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 395,
+    "name": "get_permissions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 396,
+    "name": "invalidate_cache",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 397,
+    "name": "ban",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 398,
+    "name": "unban",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 399,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 400,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 401,
+    "name": "permissions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 402,
+    "name": "groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 403,
+    "name": "get_groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 404,
+    "name": "get_permissions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 405,
+    "name": "invalidate_cache",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 406,
+    "name": "flaskbb_tpl_profile_settings_menu",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 407,
+    "name": "flaskbb_tpl_profile_links",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 408,
+    "name": "flaskbb_gather_password_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 409,
+    "name": "flaskbb_gather_email_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/plugins.py",
+    "cluster": 2
+  },
+  {
+    "id": 410,
+    "name": "flaskbb_gather_details_update_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/plugins.py",
+    "cluster": 2
+  },
+  {
+    "id": 415,
+    "name": "apply_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/update.py",
+    "cluster": 0
+  },
+  {
+    "id": 416,
+    "name": "apply_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/update.py",
+    "cluster": 0
+  },
+  {
+    "id": 417,
+    "name": "apply_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/update.py",
+    "cluster": 0
+  },
+  {
+    "id": 418,
+    "name": "apply_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/update.py",
+    "cluster": 3
+  },
+  {
+    "id": 425,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 0
+  },
+  {
+    "id": 426,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 0
+  },
+  {
+    "id": 427,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 0
+  },
+  {
+    "id": 428,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 0
+  },
+  {
+    "id": 429,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 0
+  },
+  {
+    "id": 430,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/validators.py",
+    "cluster": 3
+  },
+  {
+    "id": 431,
+    "name": "details_update_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 432,
+    "name": "password_update_handler",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 433,
+    "name": "email_update_handler",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 434,
+    "name": "settings_update_handler",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 435,
+    "name": "settings_form_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 436,
+    "name": "change_password_form_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 437,
+    "name": "change_email_form_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 438,
+    "name": "change_details_form_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/user/services/factories.py",
+    "cluster": 2
+  },
+  {
+    "id": 440,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/tokens/verifiers.py",
+    "cluster": 0
+  },
+  {
+    "id": 441,
+    "name": "verify_token",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/tokens/verifiers.py",
+    "cluster": 3
+  },
+  {
+    "id": 443,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/tokens/serializer.py",
+    "cluster": 0
+  },
+  {
+    "id": 444,
+    "name": "dumps",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/tokens/serializer.py",
+    "cluster": 3
+  },
+  {
+    "id": 445,
+    "name": "loads",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/tokens/serializer.py",
+    "cluster": 3
+  },
+  {
+    "id": 446,
+    "name": "get_annotations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/themes/aurora/build_emoji_set.py",
+    "cluster": 2
+  },
+  {
+    "id": 447,
+    "name": "format_name",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/themes/aurora/build_emoji_set.py",
+    "cluster": 2
+  },
+  {
+    "id": 448,
+    "name": "template_hook",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 449,
+    "name": "validate_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 450,
+    "name": "remove_zombie_plugins_from_db",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 452,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 7
+  },
+  {
+    "id": 453,
+    "name": "register",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 3
+  },
+  {
+    "id": 454,
+    "name": "unregister",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 455,
+    "name": "set_blocked",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 456,
+    "name": "is_blocked",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 457,
+    "name": "get_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 458,
+    "name": "get_name",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 459,
+    "name": "load_setuptools_entrypoints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 6
+  },
+  {
+    "id": 460,
+    "name": "get_metadata",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 5
+  },
+  {
+    "id": 461,
+    "name": "list_name",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 462,
+    "name": "list_internal_name_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 7
+  },
+  {
+    "id": 463,
+    "name": "list_plugin_metadata",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 464,
+    "name": "list_disabled_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 465,
+    "name": "get_disabled_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 6
+  },
+  {
+    "id": 466,
+    "name": "get_internal_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 2
+  },
+  {
+    "id": 467,
+    "name": "get_external_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/manager.py",
+    "cluster": 4
+  },
+  {
+    "id": 468,
+    "name": "flaskbb_extensions",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 469,
+    "name": "flaskbb_load_translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 2
+  },
+  {
+    "id": 470,
+    "name": "flaskbb_load_migrations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 471,
+    "name": "flaskbb_load_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 472,
+    "name": "flaskbb_request_processors",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 473,
+    "name": "flaskbb_errorhandlers",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 474,
+    "name": "flaskbb_jinja_directives",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 475,
+    "name": "flaskbb_additional_setup",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 476,
+    "name": "flaskbb_load_post_markdown_class",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 477,
+    "name": "flaskbb_load_nonpost_markdown_class",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 478,
+    "name": "flaskbb_load_post_markdown_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 479,
+    "name": "flaskbb_load_nonpost_markdown_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 6
+  },
+  {
+    "id": 480,
+    "name": "flaskbb_cli",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 4
+  },
+  {
+    "id": 481,
+    "name": "flaskbb_shell_context",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 4
+  },
+  {
+    "id": 482,
+    "name": "flaskbb_event_post_save_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 483,
+    "name": "flaskbb_event_post_save_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 484,
+    "name": "flaskbb_event_topic_save_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 485,
+    "name": "flaskbb_event_topic_save_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 486,
+    "name": "flaskbb_event_user_registered",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 487,
+    "name": "flaskbb_gather_registration_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 488,
+    "name": "flaskbb_registration_failure_handler",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 489,
+    "name": "flaskbb_registration_post_processor",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 490,
+    "name": "flaskbb_authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 491,
+    "name": "flaskbb_post_authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 492,
+    "name": "flaskbb_authentication_failed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 493,
+    "name": "flaskbb_reauth_attempt",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 494,
+    "name": "flaskbb_post_reauth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 495,
+    "name": "flaskbb_reauth_failed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 496,
+    "name": "flaskbb_form_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 497,
+    "name": "flaskbb_form_post_save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 498,
+    "name": "flaskbb_form_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 5
+  },
+  {
+    "id": 499,
+    "name": "flaskbb_form_topic_save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 500,
+    "name": "flaskbb_form_registration",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 501,
+    "name": "flaskbb_gather_password_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 502,
+    "name": "flaskbb_gather_email_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 503,
+    "name": "flaskbb_gather_details_update_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 504,
+    "name": "flaskbb_details_updated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 505,
+    "name": "flaskbb_password_updated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 506,
+    "name": "flaskbb_email_updated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 507,
+    "name": "flaskbb_settings_updated",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 3
+  },
+  {
+    "id": 508,
+    "name": "flaskbb_tpl_navigation_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 509,
+    "name": "flaskbb_tpl_navigation_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 510,
+    "name": "flaskbb_tpl_user_nav_loggedin_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 511,
+    "name": "flaskbb_tpl_user_nav_loggedin_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 512,
+    "name": "flaskbb_tpl_form_registration_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 513,
+    "name": "flaskbb_tpl_form_registration_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 514,
+    "name": "flaskbb_tpl_form_user_details_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 515,
+    "name": "flaskbb_tpl_form_user_details_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 516,
+    "name": "flaskbb_tpl_profile_settings_menu",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 517,
+    "name": "flaskbb_tpl_profile_sidebar_links",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 518,
+    "name": "flaskbb_tpl_admin_settings_menu",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 519,
+    "name": "flaskbb_tpl_admin_settings_sidebar",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 520,
+    "name": "flaskbb_tpl_profile_sidebar_stats",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 521,
+    "name": "flaskbb_tpl_post_author_info_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 522,
+    "name": "flaskbb_tpl_post_author_info_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 523,
+    "name": "flaskbb_tpl_post_content_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 524,
+    "name": "flaskbb_tpl_post_content_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 525,
+    "name": "flaskbb_tpl_post_menu_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 526,
+    "name": "flaskbb_tpl_post_menu_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 527,
+    "name": "flaskbb_tpl_topic_controls",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 528,
+    "name": "flaskbb_tpl_form_new_post_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 529,
+    "name": "flaskbb_tpl_form_new_post_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 530,
+    "name": "flaskbb_tpl_form_new_topic_before",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 531,
+    "name": "flaskbb_tpl_form_new_topic_after",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/spec.py",
+    "cluster": 0
+  },
+  {
+    "id": 534,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 535,
+    "name": "get_or_create",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 536,
+    "name": "settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 537,
+    "name": "info",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 538,
+    "name": "is_installable",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 1
+  },
+  {
+    "id": 539,
+    "name": "is_installed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 540,
+    "name": "get_settings_form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 541,
+    "name": "update_settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 542,
+    "name": "add_settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 543,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/plugins/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 546,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 547,
+    "name": "get_form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 548,
+    "name": "get_all",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 549,
+    "name": "update",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 550,
+    "name": "get_settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 551,
+    "name": "as_dict",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 552,
+    "name": "invalidate_cache",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/models.py",
+    "cluster": 2
+  },
+  {
+    "id": 553,
+    "name": "selectable_forums",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 554,
+    "name": "selectable_categories",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 555,
+    "name": "selectable_groups",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 556,
+    "name": "select_primary_group",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 567,
+    "name": "validate_username",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 568,
+    "name": "validate_email",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 569,
+    "name": "validate_avatar",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 570,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 571,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 572,
+    "name": "validate_name",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 573,
+    "name": "validate_banned",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 574,
+    "name": "validate_guest",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 575,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 576,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 577,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 578,
+    "name": "validate_external",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 579,
+    "name": "validate_show_moderators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 580,
+    "name": "validate_moderators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 581,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 582,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 583,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 584,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/forms.py",
+    "cluster": 3
+  },
+  {
+    "id": 615,
+    "name": "flaskbb_load_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 616,
+    "name": "_determine_active_settings",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 5
+  },
+  {
+    "id": 617,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 618,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 619,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 620,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 621,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 622,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 623,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 624,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 625,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 626,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 627,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 628,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 629,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 630,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 631,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 632,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 633,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 634,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 635,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 636,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 637,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 0
+  },
+  {
+    "id": 638,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 639,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 640,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 641,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 642,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 643,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 644,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 645,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 646,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 647,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 648,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 649,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 650,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 651,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 652,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 653,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 654,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 0
+  },
+  {
+    "id": 655,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 656,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 657,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 658,
+    "name": "check_fresh_login",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 659,
+    "name": "flaskbb_tpl_admin_settings_menu",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 660,
+    "name": "flaskbb_tpl_admin_settings_sidebar",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/management/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 666,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 0
+  },
+  {
+    "id": 667,
+    "name": "invalid",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 3
+  },
+  {
+    "id": 668,
+    "name": "expired",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 3
+  },
+  {
+    "id": 669,
+    "name": "bad",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 3
+  },
+  {
+    "id": 670,
+    "name": "dumps",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 0
+  },
+  {
+    "id": 671,
+    "name": "loads",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 0
+  },
+  {
+    "id": 672,
+    "name": "verify_token",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 0
+  },
+  {
+    "id": 673,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/tokens.py",
+    "cluster": 3
+  },
+  {
+    "id": 678,
+    "name": "accumulate_errors",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/exceptions.py",
+    "cluster": 3
+  },
+  {
+    "id": 679,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/exceptions.py",
+    "cluster": 0
+  },
+  {
+    "id": 680,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/exceptions.py",
+    "cluster": 2
+  },
+  {
+    "id": 682,
+    "name": "is_empty",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 2
+  },
+  {
+    "id": 686,
+    "name": "__new__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 0
+  },
+  {
+    "id": 687,
+    "name": "__eq__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 0
+  },
+  {
+    "id": 688,
+    "name": "__bool__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 0
+  },
+  {
+    "id": 689,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 2
+  },
+  {
+    "id": 690,
+    "name": "apply_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 0
+  },
+  {
+    "id": 691,
+    "name": "post_process_changeset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/changesets.py",
+    "cluster": 2
+  },
+  {
+    "id": 692,
+    "name": "_should_assign",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/user/update.py",
+    "cluster": 2
+  },
+  {
+    "id": 698,
+    "name": "assign_to_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/user/update.py",
+    "cluster": 0
+  },
+  {
+    "id": 699,
+    "name": "assign_to_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/user/update.py",
+    "cluster": 3
+  },
+  {
+    "id": 700,
+    "name": "post_process_settings_update",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/user/update.py",
+    "cluster": 2
+  },
+  {
+    "id": 706,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 707,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 708,
+    "name": "handle_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 709,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 710,
+    "name": "post_process",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 711,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 712,
+    "name": "register",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 714,
+    "name": "initiate_account_activation",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/activation.py",
+    "cluster": 3
+  },
+  {
+    "id": 715,
+    "name": "activate_account",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/activation.py",
+    "cluster": 3
+  },
+  {
+    "id": 726,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 7
+  },
+  {
+    "id": 727,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 728,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 729,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 730,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 731,
+    "name": "handle_authentication_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 732,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 733,
+    "name": "handle_post_auth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 734,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 735,
+    "name": "reauthenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 7
+  },
+  {
+    "id": 736,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 737,
+    "name": "reauthenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 738,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 739,
+    "name": "handle_reauth_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 740,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 741,
+    "name": "handle_post_reauth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 742,
+    "name": "__call__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 744,
+    "name": "initiate_password_reset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/password.py",
+    "cluster": 3
+  },
+  {
+    "id": 745,
+    "name": "reset_password",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/core/auth/password.py",
+    "cluster": 3
+  },
+  {
+    "id": 746,
+    "name": "available_avatar_types",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/fixtures/settings.py",
+    "cluster": 7
+  },
+  {
+    "id": 756,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 757,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 758,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 759,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 760,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 761,
+    "name": "populate_obj",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 5
+  },
+  {
+    "id": 762,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 763,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 1
+  },
+  {
+    "id": 764,
+    "name": "get_results",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 7
+  },
+  {
+    "id": 765,
+    "name": "get_results",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/forms.py",
+    "cluster": 3
+  },
+  {
+    "id": 796,
+    "name": "flaskbb_load_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 797,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 798,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 799,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 800,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 801,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 802,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 803,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 804,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 805,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 806,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 807,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 808,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 809,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 810,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 811,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 812,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 813,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 814,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 815,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 816,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 817,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 818,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 819,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 820,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 821,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 822,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 823,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 824,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 825,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 826,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 827,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 7
+  },
+  {
+    "id": 828,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 829,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 830,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 831,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 832,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 833,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 7
+  },
+  {
+    "id": 834,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 835,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 836,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 837,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 838,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 839,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 840,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 841,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/views.py",
+    "cluster": 5
+  },
+  {
+    "id": 842,
+    "name": "current_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/locals.py",
+    "cluster": 7
+  },
+  {
+    "id": 843,
+    "name": "current_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/locals.py",
+    "cluster": 7
+  },
+  {
+    "id": 844,
+    "name": "current_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/locals.py",
+    "cluster": 7
+  },
+  {
+    "id": 845,
+    "name": "current_category",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/locals.py",
+    "cluster": 7
+  },
+  {
+    "id": 846,
+    "name": "_get_item",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/locals.py",
+    "cluster": 2
+  },
+  {
+    "id": 854,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 855,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 856,
+    "name": "url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 857,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 858,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 859,
+    "name": "is_first_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 860,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 861,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 862,
+    "name": "hide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 863,
+    "name": "unhide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 864,
+    "name": "_deal_with_last_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 865,
+    "name": "_update_counts",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 866,
+    "name": "_restore_post_to_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 867,
+    "name": "second_last_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 868,
+    "name": "slug",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 869,
+    "name": "url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 870,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 871,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 872,
+    "name": "is_first_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 873,
+    "name": "first_unread",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 874,
+    "name": "get_topic",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 875,
+    "name": "tracker_needs_update",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 876,
+    "name": "update_read",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 877,
+    "name": "recalculate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 878,
+    "name": "move",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 879,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 880,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 881,
+    "name": "hide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 882,
+    "name": "unhide",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 883,
+    "name": "_remove_topic_from_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 884,
+    "name": "_fix_user_post_counts",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 885,
+    "name": "_fix_post_counts",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 886,
+    "name": "_restore_topic_to_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 887,
+    "name": "_handle_first_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 888,
+    "name": "involved_users",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 889,
+    "name": "slug",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 890,
+    "name": "url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 891,
+    "name": "last_post_url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 892,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 893,
+    "name": "update_last_post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 894,
+    "name": "update_read",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 895,
+    "name": "recalculate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 896,
+    "name": "save",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 897,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 898,
+    "name": "move_topics_to",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 899,
+    "name": "get_forum",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 900,
+    "name": "get_topics",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 3
+  },
+  {
+    "id": 901,
+    "name": "slug",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 902,
+    "name": "url",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 903,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 904,
+    "name": "delete",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 905,
+    "name": "get_all",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 7
+  },
+  {
+    "id": 906,
+    "name": "get_forums",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/models.py",
+    "cluster": 5
+  },
+  {
+    "id": 907,
+    "name": "force_login_if_needed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/utils.py",
+    "cluster": 7
+  },
+  {
+    "id": 908,
+    "name": "should_force_login",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/forum/utils.py",
+    "cluster": 3
+  },
+  {
+    "id": 919,
+    "name": "validate_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 7
+  },
+  {
+    "id": 920,
+    "name": "validate_theme",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 921,
+    "name": "get_cookiecutter",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 922,
+    "name": "get_version",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 1
+  },
+  {
+    "id": 923,
+    "name": "prompt_save_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 4
+  },
+  {
+    "id": 924,
+    "name": "prompt_config_path",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 4
+  },
+  {
+    "id": 925,
+    "name": "write_config",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 4
+  },
+  {
+    "id": 926,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 7
+  },
+  {
+    "id": 927,
+    "name": "show",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 0
+  },
+  {
+    "id": 928,
+    "name": "convert",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 7
+  },
+  {
+    "id": 929,
+    "name": "__repr__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/utils.py",
+    "cluster": 2
+  },
+  {
+    "id": 930,
+    "name": "plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 931,
+    "name": "list_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 932,
+    "name": "enable_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 933,
+    "name": "disable_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 934,
+    "name": "install",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 935,
+    "name": "uninstall",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 936,
+    "name": "cleanup",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 2
+  },
+  {
+    "id": 937,
+    "name": "new_plugin",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/plugins.py",
+    "cluster": 2
+  },
+  {
+    "id": 938,
+    "name": "themes",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/themes.py",
+    "cluster": 7
+  },
+  {
+    "id": 939,
+    "name": "list_themes",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/themes.py",
+    "cluster": 7
+  },
+  {
+    "id": 940,
+    "name": "new_theme",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/themes.py",
+    "cluster": 2
+  },
+  {
+    "id": 941,
+    "name": "remove_theme",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/themes.py",
+    "cluster": 2
+  },
+  {
+    "id": 942,
+    "name": "users",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/users.py",
+    "cluster": 7
+  },
+  {
+    "id": 943,
+    "name": "new_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/users.py",
+    "cluster": 7
+  },
+  {
+    "id": 944,
+    "name": "change_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/users.py",
+    "cluster": 7
+  },
+  {
+    "id": 945,
+    "name": "delete_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/users.py",
+    "cluster": 2
+  },
+  {
+    "id": 947,
+    "name": "make_app",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 1
+  },
+  {
+    "id": 948,
+    "name": "set_config",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 1
+  },
+  {
+    "id": 949,
+    "name": "set_instance",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 1
+  },
+  {
+    "id": 950,
+    "name": "flaskbb",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 951,
+    "name": "install",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 952,
+    "name": "populate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 953,
+    "name": "reindex",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 4
+  },
+  {
+    "id": 954,
+    "name": "upgrade",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 4
+  },
+  {
+    "id": 955,
+    "name": "start_celery",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 956,
+    "name": "shell_command",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 957,
+    "name": "list_urls",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 958,
+    "name": "generate_config",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 959,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 7
+  },
+  {
+    "id": 960,
+    "name": "_load_flaskbb_plugins",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 4
+  },
+  {
+    "id": 961,
+    "name": "get_command",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 4
+  },
+  {
+    "id": 962,
+    "name": "list_commands",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/main.py",
+    "cluster": 4
+  },
+  {
+    "id": 963,
+    "name": "translations",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/translations.py",
+    "cluster": 7
+  },
+  {
+    "id": 964,
+    "name": "new_translation",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 965,
+    "name": "update_translation",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 966,
+    "name": "compile_translation",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/cli/translations.py",
+    "cluster": 2
+  },
+  {
+    "id": 967,
+    "name": "flaskbb_authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 1
+  },
+  {
+    "id": 968,
+    "name": "flaskbb_post_authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 969,
+    "name": "flaskbb_authentication_failed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 970,
+    "name": "flaskbb_reauth_attempt",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 971,
+    "name": "flaskbb_reauth_failed",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 972,
+    "name": "flaskbb_post_reauth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 973,
+    "name": "flaskbb_errorhandlers",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 7
+  },
+  {
+    "id": 974,
+    "name": "flaskbb_gather_registration_validators",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 975,
+    "name": "flaskbb_registration_post_processor",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 0
+  },
+  {
+    "id": 976,
+    "name": "handle_force_logout",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/plugins.py",
+    "cluster": 3
+  },
+  {
+    "id": 994,
+    "name": "flaskbb_load_blueprints",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 995,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 996,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 997,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 998,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 999,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1000,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1001,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1002,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1003,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1004,
+    "name": "form",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1005,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1006,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1007,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1008,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1009,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1010,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1011,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1012,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1013,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1014,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1015,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1016,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1017,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1018,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1019,
+    "name": "get",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1020,
+    "name": "post",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1021,
+    "name": "login_rate_limit",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1022,
+    "name": "login_rate_limit_message",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1023,
+    "name": "check_rate_limiting",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 1
+  },
+  {
+    "id": 1024,
+    "name": "login_rate_limit_error",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/views.py",
+    "cluster": 3
+  },
+  {
+    "id": 1026,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/password.py",
+    "cluster": 0
+  },
+  {
+    "id": 1027,
+    "name": "initiate_password_reset",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/password.py",
+    "cluster": 0
+  },
+  {
+    "id": 1028,
+    "name": "reset_password",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/password.py",
+    "cluster": 0
+  },
+  {
+    "id": 1029,
+    "name": "_verify_token",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/password.py",
+    "cluster": 3
+  },
+  {
+    "id": 1037,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1038,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 7
+  },
+  {
+    "id": 1039,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1040,
+    "name": "handle_authentication_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1041,
+    "name": "handle_post_auth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1042,
+    "name": "handle_post_auth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1043,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1044,
+    "name": "authenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/authentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 1046,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/activation.py",
+    "cluster": 0
+  },
+  {
+    "id": 1047,
+    "name": "initiate_account_activation",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/activation.py",
+    "cluster": 0
+  },
+  {
+    "id": 1048,
+    "name": "activate_account",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/activation.py",
+    "cluster": 3
+  },
+  {
+    "id": 1053,
+    "name": "reauthenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/reauthentication.py",
+    "cluster": 1
+  },
+  {
+    "id": 1054,
+    "name": "handle_post_reauth",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/reauthentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1055,
+    "name": "handle_reauth_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/reauthentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1056,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/reauthentication.py",
+    "cluster": 0
+  },
+  {
+    "id": 1057,
+    "name": "reauthenticate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/reauthentication.py",
+    "cluster": 3
+  },
+  {
+    "id": 1058,
+    "name": "registration_service_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/factories.py",
+    "cluster": 3
+  },
+  {
+    "id": 1059,
+    "name": "reset_service_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 1060,
+    "name": "account_activator_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/factories.py",
+    "cluster": 3
+  },
+  {
+    "id": 1061,
+    "name": "authentication_manager_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/factories.py",
+    "cluster": 3
+  },
+  {
+    "id": 1062,
+    "name": "reauthentication_manager_factory",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/factories.py",
+    "cluster": 0
+  },
+  {
+    "id": 1071,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1072,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1073,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1074,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1075,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1076,
+    "name": "validate",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 1
+  },
+  {
+    "id": 1077,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1078,
+    "name": "post_process",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1079,
+    "name": "post_process",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1080,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1081,
+    "name": "post_process",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1082,
+    "name": "__init__",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1083,
+    "name": "register",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 0
+  },
+  {
+    "id": 1084,
+    "name": "_validate_registration",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 1085,
+    "name": "_handle_failure",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 1086,
+    "name": "_store_user",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 3
+  },
+  {
+    "id": 1087,
+    "name": "_post_process",
+    "file": "/content/drive/MyDrive/ProjectsforFinalproject/flaskbb/flaskbb/auth/services/registration.py",
+    "cluster": 3
+  }
+]
